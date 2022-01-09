@@ -3,7 +3,7 @@ def factorial(num):return num * factorial(num - 1) if num > 0 else 1
 root = tk.Tk()
 root.geometry("250x180")
 root.title("Find factorial")
-tk.Label(master=root, text="Type here", fg="#34f",  font=("Arial", 16)).pack(pady=(20, 10))
+tk.Label(master=root, text="Type below", fg="#34f",  font=("Arial", 16)).pack(pady=(20, 10))
 ent = tk.Entry(width=30)
 ent.pack()
 result_lbl = tk.Label(text="The result will be shown here")
